@@ -9,6 +9,8 @@ import { makeStyles } from "@material-ui/core/styles";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import App from "./App";
 import Registration from "./Registration";
+import YourSocieties from "./YourSocieties";
+import Members from "./Members";
 
 const useStyles = makeStyles(theme => ({
   "@global": {
@@ -114,6 +116,12 @@ export default function Header() {
         </Route>
         <Route exact path="/registration">
           <Registration />
+        </Route>
+        <Route exact path="/yourSocieties">
+          <YourSocieties />
+        </Route>
+        <Route exact path="/members">
+          <Members />
         </Route>
       </Switch>
     </Router>

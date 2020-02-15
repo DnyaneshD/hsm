@@ -31,18 +31,6 @@ const useStyles = makeStyles(theme => ({
 
 const footers = [
   {
-    title: "Company",
-    description: ["Team", "History", "Contact us", "Locations"]
-  },
-  {
-    title: "Features",
-    description: ["Cool stuff"]
-  },
-  {
-    title: "Resources",
-    description: ["Resource"]
-  },
-  {
     title: "Legal",
     description: ["Privacy policy", "Terms of use"]
   }

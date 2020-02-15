@@ -3,7 +3,6 @@ import {
   Container,
   Grid,
   Typography,
-  TextField,
   FormControl,
   InputLabel,
   OutlinedInput,
@@ -29,12 +28,7 @@ const Registration = () => {
           required
           style={{ margin: 8 }}>
           <InputLabel htmlFor="component-outlined">Society Name</InputLabel>
-          <OutlinedInput
-            id="component-outlined"
-            // value={name}
-            // onChange={null}
-            label="Society Name"
-          />
+          <OutlinedInput id="component-outlined" label="Society Name" />
         </FormControl>
         <FormControl
           variant="outlined"
@@ -42,12 +36,7 @@ const Registration = () => {
           required
           style={{ margin: 8 }}>
           <InputLabel htmlFor="component-outlined">Society Number</InputLabel>
-          <OutlinedInput
-            id="component-outlined"
-            // value={name}
-            // onChange={null}
-            label="SocietyNumber"
-          />
+          <OutlinedInput id="component-outlined" label="SocietyNumber" />
         </FormControl>
         <FormControl
           variant="outlined"
@@ -55,12 +44,7 @@ const Registration = () => {
           required
           style={{ margin: 8 }}>
           <InputLabel htmlFor="component-outlined">Established</InputLabel>
-          <OutlinedInput
-            id="component-outlined"
-            // value={name}
-            // onChange={null}
-            label="Established"
-          />
+          <OutlinedInput id="component-outlined" label="Established" />
         </FormControl>
         <FormControl>
           <Grid container>
